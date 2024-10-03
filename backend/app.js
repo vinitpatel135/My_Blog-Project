@@ -10,11 +10,15 @@ connectDB();
 
 const app = express();
 
-app.use(cors());
+app.use(cors())
 app.use(express.json());
 
 app.use("/user", userRouter)
 app.use("/post", postRouter)
+
+app.use("/", (req,res) => {
+    return res.status(200).send({message:"Success"})
+})
 
 app.use((err, req, res, next) => {
     const status = err.status || 500;
