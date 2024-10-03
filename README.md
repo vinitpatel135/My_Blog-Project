@@ -25,9 +25,9 @@ Make sure you have the following installed:
 2. Set up the environment variables:
  - Accroding to below details
 
-  MONGO_URI= "Your MongoDB URL"
-  JWT_SECRET= "Your Jwt Secret"
-  PORT= "Your Port"
+   - MONGO_URI= "Your MongoDB URL"
+   - JWT_SECRET= "Your Jwt Secret"
+   - PORT= "Your Port"
 
 3. Start the development server:
  - npm start
