@@ -2,6 +2,11 @@
 
 A blogging platform where users can create, edit, and delete their blog posts. The app includes authentication, so users must sign in or sign up to access their own blogs.
 
+## Live Demo
+
+Check out the live demo of the project [here](https://melodic-meerkat-f497b5.netlify.app/).
+
+
 # Features
  - User authentication (Sign up, Sign in, Sign out)
  - Add, edit, and delete personal blog posts
